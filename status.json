@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://example.com",
+    "status": "200 OK",
+    "elapsed_ms": 39,
+    "timestamp": "2025-05-15T04:34:08.925863753+00:00",
+    "error": null
+  },
+  {
+    "url": "https://thisurldoesnotexist.tld",
+    "status": "FAILURE",
+    "elapsed_ms": 33,
+    "timestamp": "2025-05-15T04:34:08.966204224+00:00",
+    "error": "error sending request for url (https://thisurldoesnotexist.tld/): error trying to connect: dns error: failed to lookup address information: Name or service not known"
+  }
+]
